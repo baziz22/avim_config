@@ -7,10 +7,15 @@ return {
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- ... import any community contributed plugins here
+  { import = "astrocommunity.colorscheme.gruvbox-baby", enabled = true },
+  { import = "astrocommunity.colorscheme.gruvbox-nvim", enabled = false },
   { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.colorscheme.nightfox-nvim", enabled = false },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.colorscheme.nightfox-nvim", enabled = true },
   { import = "astrocommunity.colorscheme.kanagawa-nvim", enabled = true },
-  { import = "astrocommunity.colorscheme.rose-pine" },
+  { import = "astrocommunity.colorscheme.rose-pine", enabled = true },
+  -- { import = "astrocommunity.motion.hop"},
   { import = "astrocommunity.colorscheme.catppuccin" },
   { -- further customize the options set by the community
     "catppuccin",
