@@ -19,8 +19,8 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "gruvbox-baby",
-
+  colorscheme = "gruvbox-material",
+  --colorscheme = "rose-pine",
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,

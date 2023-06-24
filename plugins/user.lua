@@ -34,7 +34,7 @@ return {
     config = function() require("todo-comments").setup() end,
     -- opts = {},
     cmd = { "TodoQuickFix" }, -- Specify a command to load the plugin.
-    keys = { -- Create mappings using "key option" to load the plugin.
+    keys = {                  -- Create mappings using "key option" to load the plugin.
       { "<leader>T", "<cmd>TodoTelescope<CR>", desc = "Open TODOs in Telescope" },
     },
   },
@@ -45,6 +45,7 @@ return {
     cmd = { "Bracey", "BracyStop", "BraceyReload", "BraceyEval" },
     build = "npm install --prefix server",
   }, ]]
+  { "sainnhe/gruvbox-material" },
 }
 -- TODO WAHT
 -- TODO: WHATIN
