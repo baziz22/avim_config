@@ -27,6 +27,7 @@ return {
     end,
   },
   -- DAP: Debug Adapter Protocol. It enables language debuggers.
+  -- :DapInstall python -- to install python adapter
   {
     "jay-babu/mason-nvim-dap.nvim",
     -- overrides `require("mason-nvim-dap").setup(...)`
@@ -38,3 +39,4 @@ return {
     end,
   },
 }
+-- :e -- to reload this file
