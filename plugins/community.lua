@@ -22,7 +22,7 @@ return {
   { -- further customize the options set by the community
     "catppuccin",
     opts = {
-      integrations = {
+      integrations = { 
         sandwich = false,
         noice = true,
         mini = true,
